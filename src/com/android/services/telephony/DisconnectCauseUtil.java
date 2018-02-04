@@ -444,8 +444,6 @@ public class DisconnectCauseUtil {
             case android.telephony.DisconnectCause.OUT_OF_SERVICE:
                 return ToneGenerator.TONE_CDMA_CALLDROP_LITE;
 
-                return ToneGenerator.TONE_SUP_ERROR;
-
             case android.telephony.DisconnectCause.ERROR_UNSPECIFIED:
             case android.telephony.DisconnectCause.LOCAL:
             case android.telephony.DisconnectCause.NORMAL:
